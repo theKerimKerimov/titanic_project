@@ -1,2 +1,3 @@
-# Справочник / план книги — отдельный репозиторий внутри папки (не часть Titanic-проекта)
-ml_handbook/
+# ---------- Data ----------
+# Local datasets and generated data artifacts
+data/
