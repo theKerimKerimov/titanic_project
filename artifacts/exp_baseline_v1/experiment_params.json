@@ -1,0 +1,26 @@
+{
+  "random_state": 42,
+  "n_splits": 5,
+  "logreg_max_iter": 2000,
+  "num_features": [
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare"
+  ],
+  "cat_features": [
+    "Pclass",
+    "Sex",
+    "Embarked"
+  ],
+  "feature_cols": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked"
+  ],
+  "experiment_key": "baseline"
+}
