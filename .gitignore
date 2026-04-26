@@ -1,3 +1,56 @@
-# ---------- Data ----------
-# Local datasets and generated data artifacts
+# =============================================================================
+# Titanic / ML project — what not to commit
+# =============================================================================
+
+# --- Secrets & machine-local env ---
+.env
+.env.*
+!.env.example
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# --- Packaging / build (if you add a package later) ---
+dist/
+build/
+*.egg-info/
+
+# --- Tests / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Data (download locally; paths live in notebook config) ---
 data/
+
+# --- Experiment artifacts: heavy binaries only ---
+# Per-run folders: small JSON may stay tracked; binaries stay untracked.
+# (We do not ignore artifacts/**/*.json — no negation rules needed.)
+artifacts/**/*.joblib
+artifacts/**/*.pkl
+artifacts/**/*.pickle
+artifacts/**/*.pt
+artifacts/**/*.onnx
+artifacts/**/*.safetensors
+artifacts/**/*.h5
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- IDE (optional; remove if you version shared IDE config) ---
+.idea/
+
+# --- Optional: ignore generated submissions (uncomment if you prefer) ---
+# artifacts/**/submission.csv
