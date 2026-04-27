@@ -52,5 +52,5 @@ Thumbs.db
 # --- IDE (optional; remove if you version shared IDE config) ---
 .idea/
 
-# --- Optional: ignore generated submissions (uncomment if you prefer) ---
-# artifacts/**/submission.csv
+# --- Generated submissions ---
+artifacts/**/submission.csv
