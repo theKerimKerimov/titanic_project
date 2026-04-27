@@ -3,7 +3,7 @@
   "cv_accuracy_mean": 0.7968740192078337,
   "cv_accuracy_std": 0.01456733331525481,
   "kaggle_public_score": 0.76555,
-  "saved_at": "2026-04-26T21:19:01.500959+00:00",
+  "saved_at": "2026-04-27T06:24:48.475230+00:00",
   "experiment_key": "baseline",
   "run_dir": "artifacts\\exp_baseline_v1",
   "pipeline_file": "pipeline.joblib",
